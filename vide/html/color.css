@@ -1,0 +1,14 @@
+/* 
+:root{
+    --red : #00d5ffa5;
+    --black: blue;
+}
+ */
+ :root{
+    --red: white ;
+    --black: black;
+}
+::selection{
+    background: var(--red);
+    color: var(--black);
+}
